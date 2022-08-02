@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 450px;
     background-color: #f44336;
     padding: 20px;
     font-size: 25px;
@@ -12,13 +11,13 @@
 .form {
     display: flex;
     margin-top: 20px;
+    width: 100%;
 }
 
 input {
     border: none;
-    width: 300px;
-    height: 30px;
-    padding: 0;
+    width: 75%;
+    padding: 10px;
 }
 
 input:focus {
@@ -26,7 +25,7 @@ input:focus {
 }
 
 .addBtn {
-    padding: 5px;
+    padding: 10px;
     width: 25%;
     background: #d9d9d9;
     color: #555;
@@ -48,7 +47,6 @@ input:focus {
 
 ul {
     list-style: none;
-    width: 490px;
     margin: 0;
     padding: 0;
 }
